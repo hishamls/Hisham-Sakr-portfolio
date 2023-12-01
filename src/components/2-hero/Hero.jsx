@@ -8,10 +8,7 @@ export default function Hero() {
     <section className="hero row">
       <div className="text-hero col ">
         <div className="my-photo">
-          <img
-            src="../../../public/images/HishamSakr.jpg"
-            alt="Hisham Sakr photo"
-          />
+          <img src="/images/HishamSakr.jpg" alt="Hisham Sakr photo" />
 
           <i
             className="fa-solid fa-certificate "
