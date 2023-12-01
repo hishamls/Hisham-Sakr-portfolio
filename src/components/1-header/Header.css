@@ -1,0 +1,71 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  gap: 1.1rem;
+  align-items: flex-end;
+
+  margin: 1rem auto;
+
+  padding: 0.5rem 1.2rem;
+}
+
+.horizontal-nav {
+  background-color: var(--nav-bg);
+
+  padding: 0.5rem 2.4rem;
+
+  border: 1px solid var(--border);
+  border-radius: 2rem;
+
+  box-shadow: 1px 1px 15px rgb(0, 0, 0, 0.7);
+}
+
+ul {
+  display: flex;
+  gap: 1rem;
+
+  padding: 2px 4px;
+}
+
+.light-btn {
+  text-shadow: 1px 1px 9px rgba(0, 0, 0, 0.23), -1px 1px 9px rgba(0, 0, 0, 0.23);
+
+  padding-top: 2rem;
+}
+.light-btn:hover,
+.fa-solid:hover {
+  text-shadow: -6px 4px 9px rgba(0, 0, 0, 0.7);
+}
+
+/* SHOW/HIDE BUTTONS */
+.menu-btn {
+  display: none;
+  text-shadow: 1px 1px 9px rgba(0, 0, 0, 0.23), -1px 1px 9px rgba(0, 0, 0, 0.23);
+}
+.fa-sun:hover,
+.light-btn:hover {
+  color: orange;
+}
+.fa-sun:hover {
+  text-shadow: 6px -1px 9px rgb(255, 166, 0, 0.5),
+    -6px 1px 9px rgb(255, 166, 0, 0.5);
+}
+.fa-moon {
+  display: none;
+}
+
+/* SCREENS  */
+@media (max-width: 700px) {
+  .horizontal-nav {
+    display: none;
+  }
+  .menu-btn {
+    display: block;
+  }
+  li {
+    border-bottom: 1px solid var(--border);
+  }
+  li:last-child {
+    border: none;
+  }
+}

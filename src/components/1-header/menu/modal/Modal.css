@@ -1,0 +1,104 @@
+.background {
+  width: 100%;
+  height: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* inset: 0; */
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  z-index: 10;
+
+  backdrop-filter: blur(4px);
+}
+
+.foreground {
+  z-index: 20;
+
+  width: 90%;
+  height: 45vh;
+
+  position: fixed;
+  top: 0;
+  left: 1.5rem;
+
+  margin: 1rem auto;
+
+  background-color: var(--nav-bg);
+
+  padding: 1rem 2.4rem;
+  padding-right: 5.4rem;
+
+  border: 1px solid var(--border);
+  border-radius: 2rem;
+
+  box-shadow: inset 2px 2px 23px rgb(0, 0, 0, 0.7);
+
+  animation: myMove 1s 0.2s;
+}
+
+li {
+  list-style: none;
+  padding: 0.5rem;
+}
+li:hover {
+  transition: 0.5s;
+
+  cursor: pointer;
+
+  border-bottom: 1px solid var(--blue);
+}
+
+a {
+  text-decoration: none;
+  color: var(--title);
+  opacity: 0.9;
+
+  font-size: 1rem;
+
+  font-weight: 500;
+}
+
+li:hover a {
+  color: var(--blue);
+  transition: 0.5s;
+}
+
+.close-btn {
+  position: absolute;
+  right: 9%;
+
+  margin-bottom: 0.5rem;
+
+  background-color: transparent;
+}
+
+.fa-xmark {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.close-btn:hover .fa-xmark {
+  color: red;
+  font-weight: bolder;
+  rotate: 180deg;
+  transition: 0.5s;
+}
+.close-btn:active .fa-xmark {
+  scale: 0.9;
+  transition: 0.5s;
+}
+
+@keyframes myMove {
+  0% {
+    scale: 0;
+  }
+  60% {
+    scale: 1.2;
+  }
+  100% {
+    scale: 1;
+  }
+}

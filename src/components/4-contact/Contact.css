@@ -1,0 +1,109 @@
+.header .row {
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+.header {
+  margin-bottom: 2rem;
+}
+form {
+  flex: 1 1 auto;
+}
+
+form.col {
+  gap: 3rem;
+  /* justify-content: center; */
+}
+form .row {
+  align-items: center;
+}
+#message {
+  min-height: 9rem;
+  resize: vertical;
+  height: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  columns: auto;
+}
+
+.confirm {
+  padding: 1rem 0.3rem;
+
+  margin: 3rem auto;
+  margin-left: 0.1rem;
+
+  color: var(--blue);
+
+  font-size: 1rem;
+  font-weight: 400;
+
+  text-align: center;
+}
+.submit {
+  background-color: var(--nav-bg);
+
+  font-weight: 600;
+  font-size: 1rem;
+
+  width: 7.5rem;
+
+  opacity: 0.8;
+}
+.submit:hover {
+  border: 1px solid var(--blue);
+}
+
+.success {
+  align-items: center;
+  gap: 0.1rem !important;
+}
+.done-ani {
+  height: 2rem;
+}
+
+.contact-anim {
+  height: 23rem;
+  translate: 1rem -2rem;
+}
+.anim {
+  justify-content: flex-end;
+}
+
+@media (max-width: 660px) {
+  .cont-body {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  form .row {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.6rem;
+    /* flex-grow: 0; */
+  }
+  form label {
+    flex-grow: 1;
+  }
+  #email,
+  #message {
+    width: 100%;
+  }
+  .anim {
+    width: 100%;
+    order: -1;
+  }
+}
+@media (max-width: 1100px) {
+  .cont-body {
+    flex-direction: column !important;
+  }
+  .anim {
+    order: 1;
+  }
+  .form {
+    order: 2;
+  }
+  .contact-anim {
+    height: 31rem;
+  }
+}

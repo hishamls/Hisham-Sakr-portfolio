@@ -1,0 +1,25 @@
+footer {
+  padding: 2rem 1rem;
+}
+footer.row {
+  align-items: center;
+}
+footer ul {
+  flex-wrap: wrap;
+}
+footer p,
+footer a {
+  color: var(--title);
+  opacity: 0.9;
+  font-size: 1rem;
+
+  font-weight: 500;
+}
+.fa-phone {
+  font-size: 1rem;
+}
+.fa-phone:hover {
+  scale: 1;
+  color: var(--blue);
+  cursor: default;
+}

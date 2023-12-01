@@ -1,0 +1,179 @@
+main {
+  flex-wrap: wrap;
+}
+.left {
+  min-width: 20%;
+  max-height: 18.5rem;
+}
+.right {
+  width: 75%;
+  max-width: 95%;
+  flex-wrap: wrap;
+  /* justify-content: flex-start !important; */
+  /* justify-content: center; */
+}
+
+.card {
+  min-width: 20%;
+  width: 23%;
+  max-width: 48%;
+
+  height: auto;
+  min-height: 18.5rem;
+
+  border: 1px solid var(--card-border);
+  border-radius: 7px;
+
+  background-image: linear-gradient(
+    rgb(93, 188, 252, 0.5),
+    rgb(255, 255, 255, 0.05)
+  );
+
+  box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.23), -1px 1px 9px rgba(0, 0, 0, 0.23);
+}
+.active,
+.card:hover {
+  color: var(--blue);
+  border: 1px solid var(--blue);
+
+  rotate: 1deg;
+
+  scale: 1.01;
+
+  cursor: pointer;
+
+  box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.23), -1px 1px 9px rgba(0, 0, 0, 0.23);
+
+  transition: 0.5s;
+}
+
+.left button {
+  width: 93%;
+
+  flex-grow: 1;
+
+  background-color: var(--nav-bg);
+}
+.left button:hover,
+.left button:active {
+  border: 1px solid var(--blue);
+}
+
+/* up image */
+
+.img-card {
+  width: 100%;
+  height: auto;
+
+  border-radius: 7px;
+}
+
+/* down text */
+.text-card,
+.box-card {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+.text-card p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.box-card {
+  justify-content: space-between;
+
+  padding-bottom: 1rem;
+}
+/* ////////////////////// */
+/* SCREENS  */
+/* /////////////////// */
+
+@media (max-width: 1705px) {
+  .left {
+    width: 20%;
+  }
+  .right {
+    width: 75%;
+  }
+  .card {
+    width: 32%;
+  }
+}
+
+@media (max-width: 1294px) {
+  .row {
+    flex-direction: row !important;
+  }
+  .left {
+    flex-direction: row !important;
+    width: 75%;
+  }
+  .left button {
+    width: 35%;
+  }
+  .right {
+    width: 75%;
+  }
+  .card {
+    width: 47%;
+  }
+  main {
+    justify-content: center !important;
+    flex-direction: column;
+    align-items: center !important;
+  }
+}
+@media (max-width: 1285px) {
+  .row {
+    align-content: center !important;
+  }
+  .left {
+    width: 85%;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+  }
+
+  .left .col {
+    flex-direction: row !important;
+  }
+  .right {
+    width: 85%;
+  }
+  .card {
+    width: 48%;
+  }
+}
+@media (max-width: 1060px) {
+  .row {
+    row-gap: 1.5rem !important;
+  }
+  main {
+    flex-direction: column;
+  }
+  .left {
+    width: 95%;
+  }
+  .right {
+    width: 95%;
+  }
+  .card {
+    width: 48%;
+  }
+}
+@media (max-width: 720px) {
+  main {
+    flex-direction: column;
+  }
+  .left {
+    width: 95%;
+  }
+  .right {
+    width: 95%;
+  }
+  .card {
+    width: 95%;
+    min-width: 100%;
+  }
+}

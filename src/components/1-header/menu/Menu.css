@@ -1,0 +1,11 @@
+.menu {
+  list-style: none;
+  text-decoration: none;
+
+  display: flex;
+  flex-direction: column;
+}
+a {
+  color: #fff;
+  font-size: 2rem;
+}

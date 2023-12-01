@@ -1,0 +1,17 @@
+.up {
+  position: fixed;
+  right: 0.6rem;
+  bottom: 1.5rem;
+  background-color: transparent;
+  border: none;
+}
+.up:hover {
+  border: none;
+  transition: 0.5s;
+}
+.fa-circle-up:hover {
+  color: var(--blue);
+  border: none;
+  background-color: transparent;
+  transition: 0.5s;
+}
