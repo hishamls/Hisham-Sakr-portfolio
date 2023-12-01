@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import "./Modal.css";
 import { Fragment } from "react";
 import ReactDOM from "react-dom";
@@ -9,7 +10,7 @@ function Foreground(props) {
   return (
     <nav className="foreground">
       <button className="close-btn" onClick={props.onClose}>
-        <i class="fa-solid fa-xmark"></i>
+        <i className="fa-solid fa-xmark" />
       </button>
 
       <ul className="menu ">
@@ -20,13 +21,17 @@ function Foreground(props) {
           <a href="">Articles</a>
         </li>
         <li>
-          <a href="">Projects</a>
+          <a href="#proj" onClick={props.onClose}>
+            Projects{" "}
+          </a>
         </li>
         <li>
           <a href="">Speaking</a>
         </li>
         <li>
-          <a href="">Contact</a>
+          <a href="#cont" onClick={props.onClose}>
+            Contact
+          </a>
         </li>
       </ul>
     </nav>
