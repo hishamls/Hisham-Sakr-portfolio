@@ -104,6 +104,8 @@ form .row {
     order: 2;
   }
   .contact-anim {
-    height: 22rem;
+    height: 15rem;
+    scale: 1.3;
+    translate: 0 5px;
   }
 }
