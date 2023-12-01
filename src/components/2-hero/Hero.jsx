@@ -26,7 +26,7 @@ export default function Hero() {
           transition={{ duration: 2 }}
         >
           Hisham Sakr
-          <br /> React Front End Developer.
+          <br /> React Front End Developer
         </motion.h1>
 
         <p className="sub-hero">
