@@ -102,7 +102,8 @@ export const myProjects = [
     github: "https://github.com/hishamls/quizApp",
     link: "https://quiz-app-nine-gamma.vercel.app/",
     category: ["JS"],
-    linkedIn: "",
+    linkedIn:
+      "https://www.linkedin.com/posts/hishamls_a-js-quiz-app-using-domand-xmlhttprequest-activity-7136439007911067648-_l3u?utm_source=share&utm_medium=member_desktop",
   },
   {
     imgPath: "/images/repo.jpg",
