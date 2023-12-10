@@ -132,9 +132,19 @@ export const myProjects = [
     title: "My Portfolio",
     subtitle: "React portfolio created in 2023",
     github: "https://github.com/hishamls/Hisham-Sakr-portfolio",
-    link: "https://hisham-sakr.vercel.app//",
+    link: "https://hisham-sakr.vercel.app/",
     category: ["React"],
     linkedIn:
       "https://www.linkedin.com/posts/hishamls_%D9%88%D8%A3%D8%AE%D9%8A%D8%B1%D8%A7-%D8%A7%D9%84%D8%AD%D9%85%D8%AF-%D9%84%D9%84%D9%87-%D9%85%D8%B9%D8%B1%D8%B6-%D8%A3%D8%B9%D9%85%D8%A7%D9%84%D9%8A-%D9%88-%D9%85%D9%86%D8%AA%D8%B8%D8%B1-activity-7136242158096760832-zraV?utm_source=share&utm_medium=member_desktop",
+  },
+  {
+    imgPath: "/images/tour.jpg",
+    title: "Hisham Tour",
+    subtitle: "A react app with updating back-end and custom hooks.",
+    github: "https://github.com/hishamls/Hisham-Tour",
+    link: "https://hisham-tour.web.app/",
+    category: ["React"],
+    linkedIn:
+      "https://www.linkedin.com/posts/hishamls_reactapp-activity-7139543971231416322-gbSk?utm_source=share&utm_medium=member_desktop",
   },
 ];
