@@ -169,4 +169,14 @@ export const myProjects = [
     linkedIn:
       "https://www.linkedin.com/posts/hishamls_reactapp-routerintegration-eventmanagement-activity-7160560348364713985-TR5I?utm_source=share&utm_medium=member_desktop",
   },
+  {
+    imgPath: "/images/reduxCart.jpg",
+    title: "Redux Cart",
+    subtitle: " a react app using redux to manage a cart",
+    github: "https://github.com/hishamls/redux-cart",
+    link: "https://redux-cart-steel-phi.vercel.app/",
+    category: ["React"],
+    linkedIn:
+      "https://www.linkedin.com/posts/hishamls_reactdevelopment-redux-shoppingapp-activity-7162634732088745984-OL1L?utm_source=share&utm_medium=member_desktop",
+  },
 ];
