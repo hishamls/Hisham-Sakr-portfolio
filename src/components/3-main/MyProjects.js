@@ -147,4 +147,26 @@ export const myProjects = [
     linkedIn:
       "https://www.linkedin.com/posts/hishamls_reactapp-activity-7139543971231416322-gbSk?utm_source=share&utm_medium=member_desktop",
   },
+  {
+    imgPath: "/images/restaurant.jpg",
+    title: "Hisham Restaurant",
+    subtitle:
+      "A React app with an updating back-end and custom hooks using useContext to manage the cart. 🛒",
+    github: "https://github.com/hishamls/hisham-restaurant",
+    link: "https://hisham-restaurant.web.app/",
+    category: ["React"],
+    linkedIn:
+      "https://www.linkedin.com/posts/hishamls_reactdevelopment-customhooks-contextapi-activity-7162626054203793408-avy6?utm_source=share&utm_medium=member_desktop",
+  },
+  {
+    imgPath: "/images/events.jpg",
+    title: "Hisham Events",
+    subtitle:
+      " Hisham Events is a cutting-edge React app with an updated back-end and router integration. 🚀💻",
+    github: "https://github.com/hishamls/router-2",
+    link: "",
+    category: ["React"],
+    linkedIn:
+      "https://www.linkedin.com/posts/hishamls_reactapp-routerintegration-eventmanagement-activity-7160560348364713985-TR5I?utm_source=share&utm_medium=member_desktop",
+  },
 ];
