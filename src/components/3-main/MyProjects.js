@@ -179,4 +179,14 @@ export const myProjects = [
     linkedIn:
       "https://www.linkedin.com/posts/hishamls_reactdevelopment-redux-shoppingapp-activity-7162634732088745984-OL1L?utm_source=share&utm_medium=member_desktop",
   },
+  {
+    imgPath: "/images/query.jpg",
+    title: "Sakr Events",
+    subtitle: " powered by TanStack Query, and React Router.",
+    github: "https://github.com/hishamls/query",
+    link: "",
+    category: ["React"],
+    linkedIn:
+      "https://www.linkedin.com/posts/hishamls_react-tanstackquery-reactrouter-activity-7166435071439093760-5xjY?utm_source=share&utm_medium=member_desktop",
+  },
 ];
