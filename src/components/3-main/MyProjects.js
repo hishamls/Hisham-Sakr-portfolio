@@ -189,4 +189,13 @@ export const myProjects = [
     linkedIn:
       "https://www.linkedin.com/posts/hishamls_react-tanstackquery-reactrouter-activity-7166435071439093760-5xjY?utm_source=share&utm_medium=member_desktop",
   },
+  {
+    imgPath: "/images/next.jpg",
+    title: "Next Meals",
+    subtitle: " powered by Next.js",
+    github: "https://github.com/hishamls/next-meals",
+    link: "",
+    category: ["React", "Next"],
+    linkedIn: "",
+  },
 ];
