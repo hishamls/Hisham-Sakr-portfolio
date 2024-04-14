@@ -246,16 +246,18 @@ a:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--container-bg);
+  background-color: var(--subtitle);
   border-radius: 1rem;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(29, 35, 45, 0.9);
+  background-color: var(--blue);
   scale: 1.1;
 }
 
 /* for Firefox */
-html {
-  scrollbar-color: var(--blue) var(--container-bg);
+/* html {
+  scrollbar-color: var(--subtitle) var(--container-bg);
 }
+
+
