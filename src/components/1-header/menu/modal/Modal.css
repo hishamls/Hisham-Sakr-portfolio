@@ -81,7 +81,7 @@ li:hover a {
   font-weight: bold;
 }
 .close-btn:hover .fa-xmark {
-  color: red;
+  color: var(--blue);
   font-weight: bolder;
   rotate: 180deg;
   transition: 0.5s;

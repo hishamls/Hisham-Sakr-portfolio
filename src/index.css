@@ -233,6 +233,7 @@ a:hover {
   /* grid-template-columns: repeat(4, 1fr); */
   /* grid-auto-flow: dense; */
 }
+
 /* ////SCROLLBAR //// */
 ::-webkit-scrollbar {
   width: 0.8rem;
@@ -256,5 +257,5 @@ a:hover {
 
 /* for Firefox */
 html {
-  scrollbar-color: var(--container-bg) var(--blue);
+  scrollbar-color: var(--blue) var(--container-bg);
 }
