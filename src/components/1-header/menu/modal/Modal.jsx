@@ -2,13 +2,20 @@
 import "./Modal.css";
 import { Fragment } from "react";
 import ReactDOM from "react-dom";
+import { motion } from "framer-motion";
 
 function Background(props) {
   return <div className="background" onClick={props.onClose} />;
 }
 function Foreground(props) {
   return (
-    <nav className="foreground">
+    <motion.nav
+      className="foreground"
+      initial={{ opacity: 0, y: 30 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: 30 }}
+      transition={{ duration: 1.1, bounce: 0.5, type: "spring" }}
+    >
       <button className="close-btn" onClick={props.onClose}>
         <i className="fa-solid fa-xmark" />
       </button>
@@ -34,7 +41,7 @@ function Foreground(props) {
           </a>
         </li>
       </ul>
-    </nav>
+    </motion.nav>
   );
 }
 const portalElement = document.getElementById("modal-overlays");

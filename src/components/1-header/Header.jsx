@@ -1,6 +1,7 @@
 import Menu from "./menu/Menu";
 import "./Header.css";
 import { useEffect, useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 
 export default function Header() {
   const [showMenu, setShowMenu] = useState(false);
@@ -30,7 +31,9 @@ export default function Header() {
         <i className="fa-solid fa-bars "></i>
       </button>
 
-      {showMenu && <Menu onClose={() => setShowMenu(false)} />}
+      <AnimatePresence>
+        {showMenu && <Menu onClose={() => setShowMenu(false)} />}
+      </AnimatePresence>
 
       <div />
       <div className="middle-nav">
