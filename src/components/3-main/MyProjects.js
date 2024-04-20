@@ -198,4 +198,14 @@ export const myProjects = [
     category: ["React", "Next"],
     linkedIn: "",
   },
+  {
+    imgPath: "/images/hero.jpg",
+    title: "Hero challenges",
+    subtitle: " animated by framer-motion",
+    github: "https://github.com/hishamls/animate-h",
+    link: "https://hero-challenges.vercel.app/",
+    category: ["React"],
+    linkedIn:
+      "https://www.linkedin.com/posts/hishamls_react-framermotion-webdevelopment-activity-7187481764066455552-hEmu?utm_source=share&utm_medium=member_desktop",
+  },
 ];
