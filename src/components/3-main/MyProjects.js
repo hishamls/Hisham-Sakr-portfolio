@@ -208,4 +208,15 @@ export const myProjects = [
     linkedIn:
       "https://www.linkedin.com/posts/hishamls_react-framermotion-webdevelopment-activity-7187481764066455552-hEmu?utm_source=share&utm_medium=member_desktop",
   },
+  {
+    imgPath: "/images/travel.jpg",
+    title: "Hisham Travel",
+    subtitle:
+      "Using pattern and pest practice in an accordion and a search-list",
+    github: "https://github.com/hishamls/pattern-h",
+    link: "https://hisham-travel.vercel.app/",
+    category: ["React"],
+    linkedIn:
+      "https://www.linkedin.com/posts/hishamls_reactproject-reactpatterns-bestpractices-activity-7188885673972514817-_ZFj?utm_source=share&utm_medium=member_desktop",
+  },
 ];
