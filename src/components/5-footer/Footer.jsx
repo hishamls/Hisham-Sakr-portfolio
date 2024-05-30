@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="footer row">
       <div className="contacts row">
-        <i className="fa-solid fa-phone" /> 00201090209759
+        <i className="fa-solid fa-phone" /> +1 (780) 804-5450
       </div>
       <p>
         &#169;<span>{currYear}</span> by <em>Hisham Sakr.</em> All rights
